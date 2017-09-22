@@ -1,0 +1,90 @@
+html, body {
+	width: 100%;
+	min-height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #234567;
+	box-sizing:border-box;  
+}
+
+label {
+	display: inline-block;
+	text-align: right;
+	width: 150px;
+	height: 1em;
+	line-height: 1em;
+}
+
+#mainContent {
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 100%;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .7);
+	
+	/* box-shadow: 0px 0px 5px 10px rgba(255, 255, 255, 1); */
+	padding: 20px;
+	background-color: rgb(255, 252, 230);
+	box-sizing:border-box;  
+}
+
+#instructions {
+}
+
+#roomSettings {
+}
+
+#tileSettings {
+}
+
+#walls {
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	border: 1px solid #234567;
+	overflow: hidden;
+}
+
+#floor {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #999999;
+}
+
+.settingsPane {
+	padding: 20px;
+	background-color: white;
+    box-shadow:  1px 2px 2px 2px rgba(0, 0, 0, 0.4);
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.settingsPane h3 {
+	margin-top: 0px;
+}
+
+.tileRow {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+	height: 21px;
+	box-sizing: border-box;
+}
+
+.tile {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: .5px;
+	padding: 0px;
+	background-color: white;
+}

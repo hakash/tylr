@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nb-no">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tylr - Planning tool for tiles</title>
+		<link rel="stylesheet" href="/styles/tylr.css" title="tylr.css">
+		<script src="scripts/tylr.js"></script>
+	</head>
+		
+	<body>
+		<div id="mainContent">
+			<div id="instructions">
+				<h1>Tylr - /ˈtʌɪlə/</h1>
+				<h2>The planning tool for laying tiles</h2>
+				<h3>Welcome!</h3>
+				<p>
+					This tool is made so you can plan your tiles' layout
+					in an easy fasion. It's not always so easy to know 
+					exactly how the tiles fit in a room, and how to cut 
+					them for optimal placement.
+				</p>
+				<p>
+					Just fill out some numbers below and we'll try to help
+					you figure out exactly that, in an easy manner that's
+					a lot easier on your back and knees.
+				</p>
+			</div>
+			<div id="roomSettings" class="settingsPane">
+				<h3>Room Settings</h3>
+				<div>
+					<label for="roomWidth">Width: </label>
+					<input type="number" id="roomWidth" name="roomWidth" value="500"> centimeter(s).
+				</div>
+				<div>
+					<label for="roomHeight">Height: </label>
+					<input type="number" id="roomHeight" name="roomHeight" value="500"> centimeter(s).
+				</div>
+						
+			</div>
+			<div id="tileSettings" class="settingsPane">
+				<h3>Tile Settings</h3>
+				<div>
+					<label for="tileWidth">Width: </label>
+					<input type="number" id="tileWidth" name="tileWidth" value="20"> centimeter(s).
+				</div>
+				<div>
+					<label for="tileHeight">Height: </label>
+					<input type="number" id="tileHeight" name="tileHeight" value="20"> centimeter(s).
+				</div>
+				<div>
+						<label for="tileSpace">Space between tiles: </label>
+						<input type="number" id="tileSpace" name="tileSpace" value="1"> centimeter(s).
+				</div>
+			
+			</div>
+			<div id="walls">
+				<div id="floor"></div>
+			</div>
+		</div>
+	</body>
+</html>
